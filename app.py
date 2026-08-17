@@ -601,7 +601,7 @@ def main():
     """, unsafe_allow_html=True)
 
     st.title("🌊 阿美語中高級認證 (Riyar Ocean Edition)")
-    st.caption("🌊 「’Aray to riyar」—— 感受太平洋海風的阿美族語學習之旅")
+    st.caption("🌊 「Aray to riyar」—— 感受太平洋海風的阿美族語學習之旅")
 
     main_options = ["📋 認證考試說明", "🎧 聽力 (Pitengil)", "🗣️ 口說 (Pisowal)", "📖 閱讀 (Piasip)", "✍️ 寫作 (Pitilid)"]
     current_tab = st.segmented_control("主選單導覽", main_options, default=None, label_visibility="collapsed")
